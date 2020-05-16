@@ -22,7 +22,7 @@
         "numa": true
     },
     "cpu": {
-        "enabled": true,
+        "enabled": false,
         "huge-pages": true,
         "hw-aes": null,
         "priority": null,
@@ -45,27 +45,31 @@
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": false,
+        "enabled": true,
         "loader": null,
         "nvml": true,
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 5,
+    "donate-level": 1,
     "donate-over-proxy": 1,
     "log-file": null,
-    "pools": [
+    "pools":
+        {
+       
+  
+        }
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+	    "url": "pool.supportxmr.com:443",
+            "user": "41tqTPQxssRJqy2MCZAw6F8txwGcfonsKJNpA3tLsjZZi5akzKBw4k753SxCPNS74u3eibwJekxNmR7wdVxfmausRTx7h7t",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
-            "tls": false,
+            "tls": ture,
             "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
